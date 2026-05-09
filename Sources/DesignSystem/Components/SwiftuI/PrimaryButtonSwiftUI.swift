@@ -1,5 +1,5 @@
 //
-//  PrimaryButton.swift
+//  PrimaryButtonSwiftUI.swift
 //  DesignSystem
 //
 //  Created by Ajay Odedara on 09/05/2026.
