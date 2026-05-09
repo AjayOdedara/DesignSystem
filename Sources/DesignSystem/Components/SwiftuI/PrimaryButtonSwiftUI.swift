@@ -7,12 +7,13 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 struct PrimaryButtonSwiftUI: View {
     let title: String
     let action: () -> Void
  
     var body: some View {
         Button(title, action: action)
-            .buttonStyle(PrimaryButtonStyle())
+            .buttonStyle(.bordered)
     }
 }
